@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description : 'A simple stack with one s3 bucket in it'
+Resources:
+  MyBucket:
+    Type: 'AWS::S3::Bucket'
+    Properties: {}
